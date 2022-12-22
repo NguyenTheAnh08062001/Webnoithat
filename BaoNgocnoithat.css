@@ -5,14 +5,17 @@
 .web{
     width: 100%;
     height: auto;
-
+    margin: 10px;
 }
 .header {
     display: flex;
-    width: 100%;
+    width: auto;
     height: 60px;
     background-color: rgb(1, 163, 1);
     margin-bottom: 5px;
+}
+.logo img{
+    width: 300px;
 }
 .menu{
     width: 100%;
@@ -22,6 +25,7 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    width: 1600px;
 }
 .menu ul li {
     width: 185px;
@@ -47,9 +51,7 @@
 .left{
     flex: 1;
 }
-.right{
-    flex: 3;
-}
+
 .dmsp {
     width: 100%;
     height: 370px;
@@ -109,4 +111,62 @@ h3{
 }
 .qc_anh img {
     width:  100%;
+}
+.right{
+    flex: 3;
+}
+.anhchinh img {
+    width: 1460px;
+    height: 500px;
+}
+.dssp img{
+    width: 300px;
+    height: 200px;
+}
+.dssp h4 {
+    padding-top: 20px ;
+    padding-bottom: 10px
+}
+.dssp button {
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(19, 192, 140);
+}
+.dssp a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.dssp1{
+    display: flex;
+    margin-bottom: 50px;
+}
+.dssp2{
+    display: flex;
+    margin-bottom: 50px;
+}
+.dssp3{
+    display: flex;
+    margin-bottom: 50px;
+}
+.o1{
+    flex: 1;
+    text-align: center;
+}
+.o2{
+    flex: 1;
+    text-align: center;
+}
+.o3{
+    flex: 1;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding-top: 10px;
+    width: auto;
+    height: 40px;
+    background-color: green;
 }
